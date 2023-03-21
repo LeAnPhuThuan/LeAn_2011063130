@@ -136,7 +136,10 @@ namespace LeAn_2011063130.Controllers
 
         //
         // GET: /Account/Register
+        
         [AllowAnonymous]
+        
+
         public ActionResult Register()
         {
             return View();
@@ -151,7 +154,7 @@ namespace LeAn_2011063130.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, Name = model.Name };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

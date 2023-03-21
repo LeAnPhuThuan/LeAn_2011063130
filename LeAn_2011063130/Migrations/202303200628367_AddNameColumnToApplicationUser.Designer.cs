@@ -7,13 +7,13 @@ namespace LeAn_2011063130.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class KhoiTaoBang : IMigrationMetadata
+    public sealed partial class AddNameColumnToApplicationUser : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(KhoiTaoBang));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNameColumnToApplicationUser));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303130718284_Khoi Tao Bang"; }
+            get { return "202303200628367_AddNameColumnToApplicationUser"; }
         }
         
         string IMigrationMetadata.Source
