@@ -179,6 +179,10 @@
     <Compile Include="Migrations\202303200628367_AddNameColumnToApplicationUser.designer.cs">
       <DependentUpon>202303200628367_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202303251654376_Khoi Tao Bang.cs" />
+    <Compile Include="Migrations\202303251654376_Khoi Tao Bang.designer.cs">
+      <DependentUpon>202303251654376_Khoi Tao Bang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -298,6 +302,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202303200628367_AddNameColumnToApplicationUser.resx">
       <DependentUpon>202303200628367_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202303251654376_Khoi Tao Bang.resx">
+      <DependentUpon>202303251654376_Khoi Tao Bang.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
